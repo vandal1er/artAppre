@@ -1,0 +1,145 @@
+/* Resetting default browser styles */
+body, h1, h2, h3, p, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+}
+
+.caption {
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #888; /* Grey color */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1cfcf;
+    position: relative;
+    max-width: 1000px; /* Adjust the value as needed */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.res {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background: #151515;
+    color: #EEEEEE;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    max-width: 1000px; /* Match the max-width of the body */
+    margin: 0 auto; /* Center the container horizontally */
+
+}
+
+img {
+    max-width: 100%; /* Set maximum width to 100% of its container */
+    height: auto; /* Allow the height to adjust automatically based on the width */
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #EEEEEE;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #A91D3A;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #151515;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #151515;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #151515;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #A91D3A;
+}
+
+.fa {
+    margin-right: 5px;
+}
