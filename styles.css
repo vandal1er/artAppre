@@ -10,6 +10,7 @@ body, h1, h2, h3, p, ul, li, form, button {
 }
 
 body {
+    background: url('type1.jpg') fixed;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f1cfcf;
@@ -31,8 +32,9 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
-    max-width: 1000px; /* Match the max-width of the body */
-    margin: 0 auto; /* Center the container horizontally */
+    left: 0;
+    right: 0;
+    margin: auto; /* Center the container horizontally */
 
 }
 
@@ -68,7 +70,7 @@ nav ul li a:hover {
     width: 80%;
     margin: 100px auto;
     padding: 20px;
-    background-color: #EEEEEE;
+    background-color: #bdb7b7;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
